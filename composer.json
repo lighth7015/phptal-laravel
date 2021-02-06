@@ -1,7 +1,7 @@
 {
-    "name": "marcoshoo/phptal-laravel",
+    "name": "towel/phptal-laravel",
     "description": "PHPTAL for Laravel 5.x",
-    "homepage": "http://github.com/marcoshoo/phptal-laravel",
+    "homepage": "http://github.com/towel/phptal-laravel",
     "keywords": ["laravel", "phptal"],
     "license": "MIT",
     "authors": [        
