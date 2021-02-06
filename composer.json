@@ -1,6 +1,6 @@
 {
     "name": "towel/phptal-laravel",
-    "description": "PHPTAL for Laravel 5.x",
+    "description": "PHPTAL for Laravel",
     "homepage": "http://github.com/towel/phptal-laravel",
     "keywords": ["laravel", "phptal"],
     "license": "MIT",
@@ -27,5 +27,5 @@
             "MarcosHoo\\LaravelPHPTAL\\": "src/"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev"
 }
