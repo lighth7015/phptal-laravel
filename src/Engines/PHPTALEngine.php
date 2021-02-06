@@ -2,7 +2,7 @@
 
 namespace MarcosHoo\LaravelPHPTAL\Engines;
 
-use Illuminate\View\Engines\EngineInterface;
+use Illuminate\Contracts\View\Engine as EngineInterface;
 use MarcosHoo\LaravelPHPTAL\PHPTALFilterChain;
 use MarcosHoo\LaravelPHPTAL\Translator;
 use Illuminate\Foundation\Application;
