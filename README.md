@@ -2,7 +2,7 @@ Allows you to use [PHPTAL](http://www.phptal.org) seamlessly in [Laravel](http:/
 
 # Installation
 
-Add `MarcosHoo\LaravelPHPTAL` as a requirement to composer.json:
+Add `lighth7015\LaravelPHPTAL` as a requirement to composer.json:
 
 ```javascript
 {
