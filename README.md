@@ -8,7 +8,7 @@ Add `lighth7015\LaravelPHPTAL` as a requirement to composer.json:
 {
     "require": {
         "phptal/phptal": "dev-master",
-        "marcoshoo/phptal-laravel": "dev-master"
+        "lighth7015/phptal-laravel": "dev-master"
     }
 }
 ```
