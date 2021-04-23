@@ -1,6 +1,6 @@
 <?php
 
-namespace MarcosHoo\LaravelPHPTAL;
+namespace lighth7015\LaravelPHPTAL;
 
 use Illuminate\Support\ServiceProvider as Provider;
 use lighth7015\LaravelPHPTAL\Engines\PHPTALEngine;
