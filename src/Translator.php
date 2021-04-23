@@ -5,7 +5,7 @@ namespace lighth7015\LaravelPHPTAL;
 use lighth7015\LaravelPHPTAL\Engines\PHPTALEngine,
     PHPTAL_TranslationService as TranslationService;
 
-class PHPTALTranslator implements TranslationService {
+class Translator implements TranslationService {
     protected $language = 'en';
     protected $encoding = 'UTF-8';
     protected $domain = 'messages';
