@@ -16,7 +16,7 @@ Add `lighth7015\LaravelPHPTAL` as a requirement to composer.json:
 Simply copy the example config to your `config` directory.
 
 ```php
-php ./artisan vendor:publish --provider 'MarcosHoo\LaravelPHPTAL\PHPTALServiceProvider'
+php ./artisan vendor:publish --provider 'lighth7015\LaravelPHPTAL\ServiceProvider'
 ```
 
 # Configuration
