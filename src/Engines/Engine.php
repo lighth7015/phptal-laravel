@@ -9,7 +9,7 @@ use Illuminate\Foundation\Application,
     Illuminate\Contracts\View\Engine as EngineInterface
     Illuminate\Support\MessageBag;
 
-class PHPTALPHPTALEngine implements EngineInterface
+class Engine implements EngineInterface
 {
     /**
      *
