@@ -13,15 +13,7 @@ Add `lighth7015\LaravelPHPTAL` as a requirement to composer.json:
 }
 ```
 
-Update your packages with `composer update` or install with `composer install`.
-
-Once Composer has installed or updated your packages you need to register PHPTAL with Laravel. Open up app/config/app.php and find the providers key towards the bottom and add:
-
-```php
-MarcosHoo\LaravelPHPTAL\PHPTALServiceProvider::class,
-```
-
-Next step is copy example config to your `config` directory.
+Simply copy the example config to your `config` directory.
 
 ```php
 php ./artisan vendor:publish --provider 'MarcosHoo\LaravelPHPTAL\PHPTALServiceProvider'
