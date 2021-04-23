@@ -2,11 +2,10 @@
 
 namespace MarcosHoo\LaravelPHPTAL;
 
-use Illuminate\Support\ServiceProvider;
-use MarcosHoo\LaravelPHPTAL\Engines\PHPTALEngine;
+use Illuminate\Support\ServiceProvider as Provider;
+use lighth7015\LaravelPHPTAL\Engines\PHPTALEngine;
 
-class PHPTALServiceProvider extends ServiceProvider
-{
+class ServiceProvider extends Provider {
     /**
      * Register the service provider.
      *
