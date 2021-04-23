@@ -4,7 +4,7 @@ namespace lighth7015\LaravelPHPTAL;
 
 use PHPTAL_Filter as Filter;
 
-class PHPTALFilterChain implements Filter {
+class FilterChain implements Filter {
     /**
      *
      * @var array
