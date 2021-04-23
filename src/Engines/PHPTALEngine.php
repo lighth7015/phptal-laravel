@@ -1,12 +1,13 @@
 <?php
 
-namespace MarcosHoo\LaravelPHPTAL\Engines;
+namespace lighth7015\LaravelPHPTAL\Engines;
 
-use Illuminate\Contracts\View\Engine as EngineInterface;
-use MarcosHoo\LaravelPHPTAL\PHPTALFilterChain;
-use MarcosHoo\LaravelPHPTAL\Translator;
-use Illuminate\Foundation\Application;
-use Illuminate\Support\MessageBag;
+use lighth7015\LaravelPHPTAL\PHPTALFilterChain,
+    lighth7015\LaravelPHPTAL\Translator;
+
+use Illuminate\Foundation\Application,
+    Illuminate\Contracts\View\Engine as EngineInterface
+    Illuminate\Support\MessageBag;
 
 class PHPTALEngine implements EngineInterface
 {
