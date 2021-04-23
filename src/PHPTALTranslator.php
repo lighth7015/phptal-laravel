@@ -1,11 +1,11 @@
 <?php
 
-namespace MarcosHoo\LaravelPHPTAL;
+namespace lighth7015\LaravelPHPTAL;
 
-use MarcosHoo\LaravelPHPTAL\Engines\PHPTALEngine;
+use lighth7015\LaravelPHPTAL\Engines\PHPTALEngine,
+    PHPTAL_TranslationService as TranslationService;
 
-class PHPTALTranslator implements \PHPTAL_TranslationService
-{
+class PHPTALTranslator implements TranslationService {
     protected $language = 'en';
     protected $encoding = 'UTF-8';
     protected $domain = 'messages';
