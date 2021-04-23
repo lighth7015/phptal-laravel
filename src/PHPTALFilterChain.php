@@ -1,11 +1,10 @@
 <?php
 
-namespace MarcosHoo\LaravelPHPTAL;
+namespace lighth7015\LaravelPHPTAL;
 
-use PHPTAL_Filter;
+use PHPTAL_Filter as Filter;
 
-class PHPTALFilterChain implements PHPTAL_Filter
-{
+class PHPTALFilterChain implements Filter {
     /**
      *
      * @var array
